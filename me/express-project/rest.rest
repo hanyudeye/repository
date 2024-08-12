@@ -1,0 +1,19 @@
+# @name get world
+
+GET  http://localhost:3000/word?title=假按揭啊
+Accept: application/json
+
+{
+    "title":"get 标题"
+}
+
+### 
+
+# @name post world
+post  http://localhost:3000/word?title=jjj  
+content-type: application/json
+
+{
+    "title":"标题"
+}
+
